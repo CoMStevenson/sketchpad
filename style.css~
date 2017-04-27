@@ -1,0 +1,19 @@
+html, body{
+width: 100%;
+margin: 0;
+background-color: #F0F0F0;
+}
+
+.square {
+	width:10px;
+	height:10px;
+	color: white;
+	float: right;
+}
+
+.wrapper {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	background-color: #666;
+}

@@ -1,0 +1,16 @@
+$(document).ready(function () {
+	addBlocks();
+})
+
+var i = 1;
+var j = 1;
+
+function addBlocks(){
+	for(var i = 1; i < 17; i++)
+	{
+		for (var j=1; j < 17; j++)
+		{
+			$(".wrapper").append("<div class='square'></div>");	
+		}
+	} 
+}

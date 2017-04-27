@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/sketch.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<div class="container">
+<div class="wrapper">
+</div>
+<div class="palette">
+<div class="colorButton" id="red"></div>
+<div class="colorButton" id="orange"></div>
+<div class="colorButton" id="yellow"></div>
+<div class="colorButton" id="green"></div>
+<div class="colorButton" id="blue"></div>
+<div class="colorButton" id="purple"></div>
+<div class="colorButton" id="white"></div>
+<div class="colorButton" id="black"></div>
+</div></div>
+</body>
+</html>
