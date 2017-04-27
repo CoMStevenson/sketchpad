@@ -2,9 +2,16 @@
 
 $(document).ready(function () {
 	var color = "white";	
+	var down = false;
 	addBlocks();
+	$(document).mousedown(function () {
+		down = true;});
+	$(document).mouseup(function () {
+		down = false;});
+		
 	$('.square').mouseenter(function(){
-		changeBlock(color, $(this))		
+	if (down) {		
+		changeBlock(color, $(this))}		
 	});
 	$('#red').click(function(){
 		color = "red";
